@@ -11,7 +11,7 @@ node ("Dev-Slave"){
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("getintodevops/hellonode")
+        app = docker.build("bhargav7/techgig-docker")
     }
 
     stage('Test image') {
